@@ -1,6 +1,6 @@
 package Dancer::Plugin::Cerberus;
 {
-  $Dancer::Plugin::Cerberus::VERSION = '0.01';
+  $Dancer::Plugin::Cerberus::VERSION = '0.02';
 }
 
 use strict;
@@ -90,7 +90,7 @@ Dancer::Plugin::Cerberus - Include geo, time zone, user-agent and throttling fro
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -187,15 +187,11 @@ with any data that L<App::Cerberus> has returned, for instance:
 
 =item *
 
-L<Elastic::Model>
+L<App::Cerberus>
 
 =item *
 
-L<Dancer>
-
-=item *
-
-L<ElasticSearch>
+L<Plack::Middleware::Cerberus>
 
 =back
 

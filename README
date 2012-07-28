@@ -3,7 +3,7 @@ NAME
     throttling from App::Cerberus
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
         use Dancer::Plugin::Cerberus;
@@ -77,11 +77,9 @@ ACCESSING CERBERUS INFO
         };
 
 SEE ALSO
-    *   Elastic::Model
+    *   App::Cerberus
 
-    *   Dancer
-
-    *   ElasticSearch
+    *   Plack::Middleware::Cerberus
 
 SUPPORT
     You can find documentation for this module with the perldoc command.
