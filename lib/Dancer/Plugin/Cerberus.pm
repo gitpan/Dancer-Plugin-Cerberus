@@ -1,6 +1,6 @@
 package Dancer::Plugin::Cerberus;
 {
-  $Dancer::Plugin::Cerberus::VERSION = '0.02';
+  $Dancer::Plugin::Cerberus::VERSION = '0.03';
 }
 
 use strict;
@@ -90,7 +90,7 @@ Dancer::Plugin::Cerberus - Include geo, time zone, user-agent and throttling fro
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
